@@ -4,10 +4,10 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<meta name="description" content="Hello is a video chat app that works in most major desktop & mobile browsers. No Signup. No Downloads. Just video chat." />
-	<meta name="keywords" content="group video chat, video communication, multiparty video chat, video chat, webrtc, peer to peer, p2p" />
-	<meta name="author" content="Vasanth.V" />
-	<meta name="application-name" content="Hello" />
+	<meta name="description" content="Meu Appoio." />
+	<meta name="keywords" content="" />
+	<meta name="author" content="OnSite" />
+	<meta name="application-name" content="MeuAppoio" />
 	<meta name="theme-color" content="#000000">
 	<!--- Insert Google Analytics -->
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -395,7 +395,7 @@
 	};
 	const checkParticipantsCount = () => {
 		const videos = document.querySelectorAll('.video');
-		if (videos.length > 4) {
+		if (videos.length > 2) {
 			document.getElementById('tooManyParticipants').style.display = 'block';
 			setTimeout(() => {
 				document.getElementById('tooManyParticipants').style.display = 'none';
@@ -414,7 +414,7 @@
 		<a href="javascript:void(0)" id="closebtn">&times;</a>
 		Compartilhe o link para a chamada.
 		<span id="roomurl"></span>
-		<br /><a href="https://github.com/vasanthv/hello#readme" style="font-size: small;">Know More</a>
+		<br /><a href="#" style="font-size: small;">Saiba Mais</a>
 	</div>
 	<div id="tooManyParticipants" class="message">Muitos participantes simultâneos pode diminuir a qualidade de áudio e vídeo.</div>
 </body>
